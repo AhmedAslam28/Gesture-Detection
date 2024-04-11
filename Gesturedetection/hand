@@ -1,0 +1,6 @@
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="unauthorized")
+project = rf.workspace("pcv-bhhaf").project("1-gtwne")
+version = project.version(2)
+dataset = version.download("tfrecord")

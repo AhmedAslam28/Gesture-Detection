@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handgesture detection</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <title>Upload Video</title>
+</head>
+<body>
+    <h1>Upload a Video</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="fileUpload" id="fileUpload" accept="video/mp4, video/mkv, video/webm" required>
+        <button type="submit">Upload Video</button>
+    </form>
+    <img src="{{ url_for('video_feed') }}" alt="Gesture Detection">
+    {% if message %}
+    <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
