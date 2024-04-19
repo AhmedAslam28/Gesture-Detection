@@ -12,8 +12,8 @@ This project focuses on detecting the thumbs-up gesture using basic image proces
 ## Web Interface:
 - The project provides a web-based interface where users can upload videos to detect the thumbs-up gesture in real time.
 - The interface utilizes Flask, a lightweight web framework for Python, to handle video uploads and display the processed results.
+![Image Description](Gestureoutputs/webpage.jpg)
 
-![Image Description](Gesture outputs/web page.jpg)
 ## Contour Detection
 - Processes input frame to detect thumbs-up gesture.
 - Converts frame to grayscale and applies Gaussian blur.
