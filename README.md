@@ -1,4 +1,4 @@
-<!-- omit in toc -->
+
 
  # Thumbs-Up Gesture Detection
 
