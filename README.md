@@ -12,8 +12,7 @@ This project focuses on detecting the thumbs-up gesture using basic image proces
 ## Web Interface:
 - The project provides a web-based interface where users can upload videos to detect the thumbs-up gesture in real time.
 - The interface utilizes Flask, a lightweight web framework for Python, to handle video uploads and display the processed results.
-  ![Alt Text](.jpg)
-
+  ![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/ad362786d8976a893fc3b659fb76262e4545cadb/Gesture%20outputs/web%20page.jpg)
 
 ## Contour Detection
 - Processes input frame to detect thumbs-up gesture.
@@ -22,3 +21,4 @@ This project focuses on detecting the thumbs-up gesture using basic image proces
 - Identifies contours of objects in binary image.
 - Validates largest contour as thumbs-up based on area and aspect ratio.
 - Returns position of thumbs-up gesture if detected.
+![Alt Text]()
