@@ -26,7 +26,7 @@ This project focuses on detecting the thumbs-up gesture using basic image proces
 ## Gesture Detetcion Output
 -When a thumbs-up gesture is detected in a streamed video, this project displays corresponding text overlay to indicate the recognition result in real time.
 -The text appears dynamically on the video feed, providing immediate feedback upon gesture detection.
-### Detecion1
+### Detection1
 ![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/cecc9e83658af1eb76ccb8c6270809982732280f/Gesture%20outputs/detection1.jpg)
 
 ### Detection2
