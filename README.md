@@ -1,4 +1,4 @@
-# Thumbs-Up Gesture Detection
+ # Thumbs-Up Gesture Detection
 
 ## Overview 
 This project focuses on detecting the thumbs-up gesture using basic image processing techniques, particularly contour detection. The goal is to develop a simple yet effective method to recognize the thumbs-up gesture from images or video frames. By utilizing contour detection and other fundamental image processing tools, this project aims to provide a straightforward solution for gesture recognition.
@@ -24,4 +24,10 @@ This project focuses on detecting the thumbs-up gesture using basic image proces
 ![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/a16c41d81180d225f4382cb82a56338c156f2a03/Gesture%20outputs/contour%20.jpg)
 
 ## Gesture Detetcion Output
-![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/a16c41d81180d225f4382cb82a56338c156f2a03/Gesture%20outputs/detection1%20.jpg)
+-When a thumbs-up gesture is detected in a streamed video, this project displays corresponding text overlay to indicate the recognition result in real time.
+-The text appears dynamically on the video feed, providing immediate feedback upon gesture detection.
+### Detecion1
+![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/cecc9e83658af1eb76ccb8c6270809982732280f/Gesture%20outputs/detection1.jpg)
+
+### Detection2
+![Alt Text](https://github.com/AhmedAslam28/Gesture-Detection/blob/cecc9e83658af1eb76ccb8c6270809982732280f/Gesture%20outputs/detection2.jpg)
